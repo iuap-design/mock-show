@@ -180,9 +180,9 @@ export default class MockCol extends Component {
             caseDesModalVisible: true,
             caseData: initCaseData
           })}>添加期望</Button>
-          <a target="_blank" rel="noopener noreferrer" href={constants.docHref.adv_mock_case} style={{marginLeft: 8}} >
+          {/* <a target="_blank" rel="noopener noreferrer" href={constants.docHref.adv_mock_case} style={{marginLeft: 8}} >
             <Tooltip title="点击查看文档"><Icon type="question-circle-o" /></Tooltip>
-          </a>
+          </a> */}
         </div>
         <Table columns={columns} dataSource={data} pagination={false} rowKey='_id' />
         <CaseDesModal

@@ -16,7 +16,7 @@ const CountOverview = (props) => (
     <Col className="gutter-row" span={6}>
       <span>
         分组总数
-        <Tooltip placement="rightTop" title="统计yapi中一共开启了多少可见的公共分组">
+        <Tooltip placement="rightTop" title="统计中一共开启了多少可见的公共分组">
           <Icon className="m-help" type="question-circle" />
         </Tooltip>
       </span>
@@ -26,7 +26,7 @@ const CountOverview = (props) => (
     <Col className="gutter-row" span={6}>
       <span>
         项目总数
-        <Tooltip placement="rightTop" title="统计yapi中建立的所有项目总数">
+        <Tooltip placement="rightTop" title="统计中建立的所有项目总数">
           <Icon className="m-help" type="question-circle" />
         </Tooltip>
       </span>
@@ -35,7 +35,7 @@ const CountOverview = (props) => (
     <Col className="gutter-row" span={6}>
       <span>
         接口总数
-        <Tooltip placement="rightTop" title="统计yapi所有项目中的所有接口总数">
+        <Tooltip placement="rightTop" title="统计所有项目中的所有接口总数">
           {/*<a href="javascript:void(0)" className="m-a-help">?</a>*/}
           <Icon className="m-help" type="question-circle" />
         </Tooltip>
@@ -45,7 +45,7 @@ const CountOverview = (props) => (
     <Col className="gutter-row" span={6}>
       <span>
         测试接口总数
-        <Tooltip placement="rightTop" title="统计yapi所有项目中的所有测试接口总数">
+        <Tooltip placement="rightTop" title="统计所有项目中的所有测试接口总数">
           {/*<a href="javascript:void(0)" className="m-a-help">?</a>*/}
           <Icon className="m-help" type="question-circle" />
         </Tooltip>

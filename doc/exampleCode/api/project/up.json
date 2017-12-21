@@ -4,9 +4,9 @@
     "id": 8,
     "env": [{
         "name": "本地开发环境",
-        "domain": "http://api.quar.com"
+        "domain": "#"
     }],
-    "desc": "yapi项目"
+    "desc": "mock项目"
 }
 
 //返回示例
