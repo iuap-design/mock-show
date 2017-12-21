@@ -3,10 +3,10 @@ import { connect } from 'react-redux'
 import axios from 'axios'
 import PropTypes from 'prop-types'
 import { withRouter } from 'react-router-dom';
-import { Table, Button, message, Popconfirm, Tooltip, Icon } from 'antd';
+import { Table, Button, message, Popconfirm } from 'antd';
 import { fetchMockCol } from 'client/reducer/modules/mockCol'
 import { formatTime } from 'client/common.js';
-import constants from 'client/constants/variable.js'
+// import constants from 'client/constants/variable.js'
 import CaseDesModal from './CaseDesModal';
 
 @connect(
